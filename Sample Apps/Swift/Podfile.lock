@@ -1,0 +1,16 @@
+PODS:
+  - LPMessagingSDK (6.5.1.804)
+
+DEPENDENCIES:
+  - LPMessagingSDK
+
+SPEC REPOS:
+  https://github.com/LivePersonInc/iOSPodSpecs.git:
+    - LPMessagingSDK
+
+SPEC CHECKSUMS:
+  LPMessagingSDK: bdf6353ee921a382600165a5f757ca8b7a0a94c1
+
+PODFILE CHECKSUM: d9bfc769d114287c2d1b6148bade0cd9b0283c3d
+
+COCOAPODS: 1.9.3

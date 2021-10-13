@@ -252,7 +252,7 @@ extension MonitoringViewController {
 //        LPMessaging.instance.showConversation(conversationViewParam)
         
         //implicit flow
-        let jwtAuthenticationParams = LPAuthenticationParams(authenticationCode: nil, jwt: "JWTTOKEN", redirectURI: nil, certPinningPublicKeys: nil, authenticationType: .authenticated)
+        let jwtAuthenticationParams = LPAuthenticationParams(authenticationCode: nil, jwt: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5Ea3lSRGRGUXpRNU5VSkVRemhDTjBJMlJVUTBSREpGTnpNeE9Ua3pNREl6UkRCR016TXpNQSJ9.eyJpc3MiOiJodHRwczovL2Rldi1pemthbzQtdi5hdS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjA4OTI1NDczZWE0NWIwMDZhNWYwYjE2IiwiYXVkIjoiaUhiSExPRnB0YzFjRGpQaEF1a3pMQVZ4cjRlNTJwQVEiLCJpYXQiOjE2MzQwODYzNDAsImV4cCI6MTYzNDE3NjM0MH0.lHNRaIqiOftAybSAJR0S-cOz7eHOsgYxf-WPbfbVrqK37zRmx68oRUMlRRoNMnQcahhrlzSN6nsVabiPHNaWkttRQWiopkVWzsDpdt6_Z_WYXvaT-LlHLPkubp5uiKkPtdGzko3lhqSaJr4tGKfR5zHzt3fpSi8qX3PfBTbNe6A-Qf-PgLiq2Ebhmaj88H9yeIRzrdjkQdLse-KG_nnGLw1a6fSsR9-SnLgsm9z4QUC8yZmI5X-IoIdzpUPNmDevkY3m77wTwEJw2k90iEd_zQaeR99Mw1-5raM6FTh46Zg2HS9_qeRG7oI7kNB6acFLgniUutQv-mHYESTbUjE9XQ", redirectURI: nil, certPinningPublicKeys: nil, authenticationType: .authenticated)
         
         LPMessaging.instance.showConversation(conversationViewParam, authenticationParams: jwtAuthenticationParams)
         
